@@ -4,8 +4,10 @@ def sum_of_products(list1, list2):
     if len(list1) != len(list2):
         return 'error'
     else:
+        products = []
         for a, b in zip(list1, list2):
-            sum_of_products.append(a * b)
+            products.append(a * b)
+        return sum(products)
 
 
 
