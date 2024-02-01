@@ -15,4 +15,4 @@ def sum_of_products(list1, list2):
 
 if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
-    print(sum_of_products)
+    print(sum_of_products())
