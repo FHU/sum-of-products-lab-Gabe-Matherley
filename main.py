@@ -6,7 +6,7 @@ def sum_of_products(list1, list2):
     else:
         products = []
         for a, b in zip(list1, list2):
-            products.append(a * b)
+            products.append(int(a) * int(b))
         return sum(products)
 
 
@@ -15,4 +15,6 @@ def sum_of_products(list1, list2):
 
 if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
-    print(sum_of_products())
+    num1 = input()
+    num2 = input()
+    print(sum_of_products(num1, num2))
