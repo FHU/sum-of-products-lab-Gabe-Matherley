@@ -16,7 +16,7 @@ def sum_of_products(list1, list2):
 
 if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
-    num1 = input()
-    num2 = input()
-    print(sum_of_products(num1, num2))
+    list1 = input()
+    list2 = input()
+    print(sum_of_products(list1, list2))
     #test
