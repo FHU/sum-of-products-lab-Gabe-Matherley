@@ -19,3 +19,4 @@ if __name__ == '__main__':
     num1 = input()
     num2 = input()
     print(sum_of_products(num1, num2))
+    #test
