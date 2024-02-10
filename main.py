@@ -18,5 +18,5 @@ if __name__ == '__main__':
    #REMOVE PASS AND YOUR CODE GOES HERE
     list1 = input()
     list2 = input()
-    print(sum_of_products(list1, list2))
+    print(sum(products))
     
